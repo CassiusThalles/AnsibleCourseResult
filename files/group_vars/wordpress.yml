@@ -1,0 +1,3 @@
+---
+database_ip: '172.17.177.42'
+wp_installation_dir: '/usr/share/wordpress/'

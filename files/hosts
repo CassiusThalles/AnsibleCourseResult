@@ -1,0 +1,9 @@
+[wordpress]
+172.17.177.41 ansible_user=vagrant ansible_ssh_private_key_file="/home/vagrant/ansible"
+[wordpress:vars]
+ansible_python_interpreter=/usr/bin/python3
+
+[database]
+172.17.177.42 ansible_user=vagrant ansible_ssh_private_key_file="/home/vagrant/ansible"
+[database:vars]
+ansible_python_interpreter=/usr/bin/python3

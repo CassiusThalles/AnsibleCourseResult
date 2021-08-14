@@ -1,0 +1,10 @@
+---
+- name: 'Instala os pacotes necessários'
+  apt:
+          update_cache: yes
+          name:
+                  - wordpress
+                  - php
+                  - libapache2-mod-php
+                  - php-mysql
+  become: yes
